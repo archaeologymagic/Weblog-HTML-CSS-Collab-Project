@@ -1,0 +1,12 @@
+body {
+    background-image: url(Background.jpg);
+    font-size: 15px;
+    color: rgb(176, 174, 125);
+    background-repeat: repeat;
+
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
