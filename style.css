@@ -1,12 +1,67 @@
 body {
-    background-image: url(Background.jpg);
-    font-size: 15px;
-    color: rgb(176, 174, 125);
-    background-repeat: repeat;
-
-}
-
-h1, h2, h3 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(73,143,155);
     text-align: center;
+    font-size: 20px;
+    background-image: url(Images/Background.jpg);
+    background-repeat: repeat;
+    cursor: url(Cursor.png), auto;
 }
 
+h1 {
+    color:rgb(38,116,129);
+    text-decoration: underline;
+    background-color: rgb(130,189,200);
+    font-size: 2em;
+}
+
+h2 {
+    color: rgb(38,116,129);
+    font-size: 1.7em;
+}
+
+h3 {
+    color: rgb(38,116,129);
+    font-size: 1em;
+}
+
+p, ul, ol, table {
+    text-align: left;
+    max-width: 700px;
+    margin: 0 auto 1em auto;
+    line-height: 1.5;
+    color: rgb(38,116,129);
+}
+
+
+table {
+    color: rgb(38,116,129);
+    background-color:rgb(130,189,200);
+    width: 67%;
+    box-shadow: -7.6px 6.7px 7.6px rgb(67, 76, 67);
+}
+
+img {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: -15px 6.7px 15px rgb(0, 0, 0);
+    width: 200px;
+}
+
+p {
+    color: rgb(38,116,129);
+}
+
+table th, table td{
+    font-family:cursive;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid;
+}
+
+
+table img {
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+}
